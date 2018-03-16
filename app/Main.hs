@@ -9,7 +9,7 @@ import Lib
 {-| Toys Lists
 01. CIS 194 Homework 1                => ✔ src/a_credit_card_validation.hs
 02. CIS 194 Homework 1, ex5 + extra   => ✔ src/b_towers_of_hanoi.hs
-03. CIS 194 Homework 2                => ✕ src/c_log_file_parsing.hs
+03. CIS 194 Homework 2                => ✔ src/c_log_file_parsing.hs
 04. CIS 194 Homework 3                => ✕ src/d_code_golf.hs
 05. CIS 194 Homework 4                => ✕ src/e_wholemeal_programming.hs
 06. PIH Ch 5.5 uppercase letters      => ✕ src/f_caesar_cipher.hs

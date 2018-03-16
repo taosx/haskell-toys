@@ -17,6 +17,8 @@ hanoi n from to aux
 
 hanoi4 n from to aux1 aux2
     | n > 0
+    = hanoi n from to aux1
+    | n > 3
     = hanoi4(n-2) from aux1 aux2 to 
         ++ [(from, aux2), (from, to), (aux2, to)]
     ++ hanoi4 (n-2) aux1 to from aux2
