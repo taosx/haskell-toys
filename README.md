@@ -5,8 +5,8 @@ A playground with small scripts created by learning haskell (Besides the require
 ## Toys Lists
 Resource                       | Associated file
 ------------------------------ | --------------------------------------
-✕ CIS 194 Homework 1           | src/a_credit_card_validation.hs
-✕ CIS 194 Homework 1, ex5      | src/b_towers_of_hanoi.hs
+✔ CIS 194 Homework 1           | src/a_credit_card_validation.hs
+✔ CIS 194 Homework 1,ex5+extra | src/b_towers_of_hanoi.hs
 ✕ CIS 194 Homework 2           | src/c_log_file_parsing.hs
 ✕ CIS 194 Homework 3           | src/d_code_golf.hs
 ✕ CIS 194 Homework 4           | src/e_wholemeal_programming.hs
