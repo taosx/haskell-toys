@@ -11,7 +11,7 @@ import Lib
 02. CIS 194 Homework 1, ex5 + extra   => ✔ src/b_towers_of_hanoi.hs
 03. CIS 194 Homework 2                => ✔ src/c_log_file_parsing.hs
 04. CIS 194 Homework 3                => ✔ src/d_code_golf.hs
-05. CIS 194 Homework 4                => ✕ src/e_wholemeal_programming.hs
+05. CIS 194 Homework 4                => ✔ src/e_wholemeal_programming.hs
 06. PIH Ch 5.5 uppercase letters      => ✕ src/f_caesar_cipher.hs
 07. PIH Ch 7.6, + exercise 7          => ✕ src/g_binary_string_transmitter.hs
 08. PIH Ch 7.7                        => ✕ src/h_voting_algorithms.hs

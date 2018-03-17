@@ -9,7 +9,7 @@ Resource                       | Associated file
 ✔ CIS 194 Homework 1,ex5+extra | src/b_towers_of_hanoi.hs
 ✔ CIS 194 Homework 2           | src/c_log_file_parsing.hs
 ✔ CIS 194 Homework 3           | src/d_code_golf.hs
-✕ CIS 194 Homework 4           | src/e_wholemeal_programming.hs
+✔ CIS 194 Homework 4           | src/e_wholemeal_programming.hs
 ✕ PIH Ch 5.5 uppercase letters | src/f_caesar_cipher.hs
 ✕ PIH Ch 7.6, + exercise 7     | src/g_binary_string_transmitter.hs
 ✕ PIH Ch 7.7                   | src/h_voting_algorithms.hs
