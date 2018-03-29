@@ -1,5 +1,7 @@
 module WholeMealProgramming where
 
+import Data.List
+
 -- fun1' it takes a list of integer
 -- 
 fun1' :: [Integer] -> Integer
@@ -20,6 +22,7 @@ fun1 = product . map (subtract 2) . filter even
 
 fun2 :: Integer -> Integer
 fun2 = sum . filter even . takeWhile (/= 1) . iterate (\n -> if even n then n `div` 2 else 3*n+1)
+
 
 {-| Exercise 2: Folding with trees
 Recall the definition of a binary tree data structure. The height of
@@ -50,13 +53,13 @@ foldTree = foldr insertTree Leaf
         insertTree x nd@(Node h l root r)
             | l > r     = Node (treeLevel newr + 1) l root newr
             | otherwise = Node (treeLevel newl + 1) newl root r
-            where
+            where 
                 newr = insertTree x r
                 newl = insertTree x l
 
--- Everytime I finish a function that deals in any way with traversal of tree I feel a relief.
+-- Everytime I finish a function that deals in any way with traversal of trees, I feel a relief like.
 -- TODO: I really should take a course on Data Structures and Algorithms, I feel it will make my
--- life as a programmer/developer -> software engineer easier.
+-- life as a programmer/developer -> software engineer easier. (count views: 2)
 
 -- xor :: [Bool] -> Bool
 xor :: [Bool] -> Bool
@@ -70,4 +73,10 @@ myFoldl f base xs = foldr (\a b -> f b a) base xs
 
 
 {-| Exercise 4: Finding Primes |-}
-sieveSundaram n = [1,3..(n*2+2)]
+-- sieveSundaram n = [1,3..(n*2+2)]
+
+sieveSundaram n = map (\x -> 2*x + 1) $ filter (`notElem` crossed) [1..n]
+    where crossed = [ i+j+2*i*j | i <- [1..n], j <- [1..n], i <= j, i+j+2*i*j <= n]
+
+cartProd :: [a] -> [b] -> [(a, b)]
+cartProd xs ys = [(x,y) | x <- xs, y <- ys]

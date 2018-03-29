@@ -12,12 +12,14 @@ import Lib
 03. CIS 194 Homework 2                => ✔ src/c_log_file_parsing.hs
 04. CIS 194 Homework 3                => ✔ src/d_code_golf.hs
 05. CIS 194 Homework 4                => ✔ src/e_wholemeal_programming.hs
-06. PIH Ch 5.5 uppercase letters      => ✕ src/f_caesar_cipher.hs
-07. PIH Ch 7.6, + exercise 7          => ✕ src/g_binary_string_transmitter.hs
-08. PIH Ch 7.7                        => ✕ src/h_voting_algorithms.hs
-09. PIH Ch 8.6 + exercise 8           => ✕ src/i_tautology_checker.hs
-10. PIH Ch 8.7 + exercise 9           => ✕ src/j_abstract_machine.hs
-11. PIH Ch 9                          => ✕ src/k_countdown_problem.hs
+06. CIS 194 Homework 5                => ✔ src/f_calc.hs
+07. CIS 194 Homework 6                => ✔ src/g_lazy_fibo.hs
+08. PIH Ch 5.5 uppercase letters      => ✕ src/h_caesar_cipher.hs
+09. PIH Ch 7.6, + exercise 7          => ✕ src/i_binary_string_transmitter.hs
+10. PIH Ch 7.7                        => ✕ src/j_voting_algorithms.hs
+11. PIH Ch 8.6 + exercise 8           => ✕ src/k_tautology_checker.hs
+12. PIH Ch 8.7 + exercise 9           => ✕ src/l_abstract_machine.hs
+13. PIH Ch 9                          => ✕ src/m_countdown_problem.hs
 |-}
 
 main :: IO ()
